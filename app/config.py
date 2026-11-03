@@ -20,7 +20,7 @@ class Settings(BaseSettings):
     google_redirect_uri: str = "http://localhost:8000/auth/google/callback"
 
     # Database
-    database_url: str = "postgresql+asyncpg://aisist:aisist_secret@db:5432/aisist"
+    database_url: str = "postgresql+asyncpg://aisist:change_me@db:5432/aisist"
     # Sync URL for Alembic
     @property
     def sync_database_url(self) -> str:

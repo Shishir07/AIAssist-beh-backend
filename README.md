@@ -75,7 +75,7 @@ docker run -d \
   --name aisist_db \
   -e POSTGRES_DB=aisist \
   -e POSTGRES_USER=aisist \
-  -e POSTGRES_PASSWORD=aisist_secret \
+  -e POSTGRES_PASSWORD=change_me \
   -p 5433:5432 \
   postgres:16
 ```
